@@ -114,6 +114,21 @@ textarea {
 	border: 0;
 	border-radius: 3px;
 	background: #eee;
+	transition: .2s;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+	background: #f5f5f5;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+	outline-color: #46698b;
+	background: #fff;
+	transition: .2s;
 }
 
 select {
@@ -136,18 +151,31 @@ input[type="submit"] {
 	color: #fff;
 }
 
+input[type="submit"]:active {
+	background: #3d6a67;
+}
+
+input[type="submit"]:hover {
+	background: #448581;
+}
+
+input[type="submit"]:focus {
+	outline-color: #111;
+}
+
 textarea:last-of-type {
 	margin-bottom: 0;
 }
 
-input:focus,
-select:focus,
-textarea:focus {
-	outline-color: #46698b;
-}
-
 input[name="zip"] {
 	width: 50%;
+}
+
+#desired-topics-section {
+	margin-top: 1rem;
+	border-radius: 3px;
+	padding: 1rem;
+	background: #f5f5f5;
 }
 
 /* Footer */
