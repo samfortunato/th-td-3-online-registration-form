@@ -13,3 +13,5 @@ The form markup and general HTML markup were created using proper HTML5 practice
 Proper form tags and input types were used for the various form elements, such as fieldsets for organizing groups of related inputs, and different input types used for processing specific pieces of data (such as telephone numbers).
 
 Visual stylings were based off of the mockup given, with some personal touch-ups added by myself to taste. A custom font from Google Fonts was utilized.
+
+Both the HTML and CSS are valid, according to the W3C validator services.
