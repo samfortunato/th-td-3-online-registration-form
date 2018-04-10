@@ -4,7 +4,7 @@
 
 This is the GitHub repository for the third project for the Front End Web Development Techdegree at Treehouse.
 
-## Info
+### Info
 
 The project was an assignment to build an online newsletter registration form based off of a provided image mock-up. A mobile version and a desktop version were required.
 
