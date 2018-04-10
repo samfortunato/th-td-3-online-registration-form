@@ -109,12 +109,12 @@ select,
 textarea {
 	display: block;
 	width: 100%;
-	margin-bottom: .5rem;
+	margin-bottom: .75rem;
 	padding: 1rem;
 	border: 0;
 	border-radius: 3px;
 	background: #eee;
-	transition: .2s;
+	transition: background .2s;
 }
 
 input:hover,
@@ -127,8 +127,10 @@ input:focus,
 select:focus,
 textarea:focus {
 	outline-color: #46698b;
+	margin-bottom: .5rem;
+	border: 2px solid #46698b;
 	background: #fff;
-	transition: .2s;
+	transition: background .2s;
 }
 
 select {
@@ -161,6 +163,7 @@ input[type="submit"]:hover {
 
 input[type="submit"]:focus {
 	outline-color: #111;
+	border: 2px solid #111;
 }
 
 textarea:last-of-type {
@@ -253,6 +256,12 @@ h6 {
 	#contact-info label,
 	#contact-info input,
 	#contact-info select {
+		margin: 2px;
+	}
+
+	#contact-info label:focus,
+	#contact-info input:focus,
+	#contact-info select:focus {
 		margin: 0;
 	}
 
