@@ -1,9 +1,97 @@
+/* General Styles */
+
+* {
+	box-sizing: border-box;
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+
+h1 {
+	margin: 0;
+	font-size: 1.5rem;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+header,
+#call-to-action,
+footer {
+	text-align: center;
+}
+
+/* Header */
+
+header {
+	padding: 1.5rem;
+	background: darkblue;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* Call to Action */
+
+#call-to-action {
+	margin-bottom: 2rem;
+	border-bottom: 4px solid #000;
+	padding-bottom: 1rem;
+	box-shadow: 0 3px #fff,
+				0 5px #000;
+}
+
+/* Form Styles */
+
+fieldset {
+	max-width: 100%;
+	margin: 0 0 2rem 0;
+	border: none;
+	border-bottom: 2px solid #000;
+	padding: 0 0 2rem 0;
+}
+
+fieldset:last-of-type {
+	border-bottom: 0;
+}
+
+legend {
+	margin-bottom: 1rem;
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+
+label {
+	display: inline-block;
+	margin-bottom: .5rem;
+}
+
 input,
 select {
 	display: block;
+	width: 100%;
+	margin-bottom: .5rem;
+	padding: 1rem;
+	border: 0;
+	border-radius: 3px;
+	background: #eee;
+}
+
+select {
+	max-width: 100%;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
 	display: inline;
+	width: initial;
+}
+
+input[type="submit"] {
+	background: teal;
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #fff;
 }
