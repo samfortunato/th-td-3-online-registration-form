@@ -14,4 +14,4 @@ Proper form tags and input types were used for the various form elements, such a
 
 Visual stylings were based off of the mockup given, with some personal touch-ups added by myself to taste. A custom font from Google Fonts was utilized.
 
-Both the HTML and CSS are valid, according to the W3C validator services.
+Layout tested in Google Chrome, Firefox, and Microsoft Edge. Both the HTML and CSS are valid, according to the W3C validator services.
