@@ -181,6 +181,10 @@ input[name="zip"] {
 	background: #f5f5f5;
 }
 
+#desired-topics-section label {
+	margin-bottom: .9rem;
+}
+
 /* Footer */
 
 footer {
